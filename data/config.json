@@ -1,0 +1,156 @@
+{
+  "project": {
+    "name": "NGA Recent Aquisitions",
+    "quality": 1
+ },
+  "loader": {
+    "info": "data/info.md",
+    "timeline": "data/timeline.csv",
+    "items": "data/data.csv",
+    "tsne": "data/tsne.csv",
+    "textures": {
+      "medium": {
+        "size": 256,
+        "url": "data/Images/sprites/spritesheet.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "data/Images/1024/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "data/Images/4096/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#2d3b43",
+    "fontColorActive": "#FFF",
+    "fontBackground": "#295b71",
+    "textShadow": "1px 1px 0px #f8f4e9",
+    "canvasBackground": "#f0f2f5",
+    "timelineBackground": "#000",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#f8774f",
+    "detailBackground": "#EEE",
+    "infoBackground": "#000",
+    "infoFontColor": "#fff",
+    "searchbarBackground": "#295b71"
+  },
+  "projection": {
+    "columns": 17
+  },
+  "detail": {
+    "structure": [      
+      {
+        "name": "Keywords",
+        "source": "_keywords",
+        "display": "column",
+        "type": "array"
+      },
+      {
+        "name": "Year",
+        "source": "_year",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Object ID",
+        "source": "_objectid",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Accession Number",
+        "source": "_accessionnum",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Title",
+        "source": "_title",
+        "display": "column",
+        "type": "text"
+      },
+      { 
+        "name": "Date",
+        "source": "_displaydate",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Medium",
+        "source": "_medium",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Dimensions",
+        "source": "_dimensions",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Inscription",
+        "source": "_inscription",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Markings",
+        "source": "_markings",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Artist",
+        "source": "_artist",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Provenance",
+        "source": "_provenance",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Credit Liine",
+        "source": "_creditline",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Classification",
+        "source": "_classification",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Watermarks",
+        "source": "_watermarks",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Image Link",
+        "source": "_imagelink",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "UUID",
+        "source": "_uuid",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Id",
+        "source": "_id",
+        "display": "column",
+        "type": "text"
+      }
+    ]
+  }
+}
